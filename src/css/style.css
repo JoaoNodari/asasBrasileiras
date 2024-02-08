@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+/* Estilizando o Body */
+
+body {
+    margin: auto;
+    max-width: 1080px;
+    background-color: #4C4A4D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+
+.modo-claro {
+    background-color: rgba(211, 211, 211, 0.678);
+}
+
+/* Estilizando o Header */
+
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+header .logo {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .escrita-logo {
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+    color: #1B67B3;
+}
+
+header #botao-alterar-tema {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+header .imagem-botao {
+    width: 40px;
+    height: 40px;
+    transition: 0.2s ease-in-out; 
+    cursor: pointer;
+}
+
+header .imagem-botao:hover {
+    transform: scale(1.2);
+}
+
+/* Estilizando o Main */
+
+main .listagem-aeronaves{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .listagem-aeronaves .aeronave {
+    background-color: #CAC6CC;
+    width: 230px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    transition: .2s ease-in-out;
+}
+
+main .listagem-aeronaves .aeronave:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+/* Estilizando o parte interna */
+
+main .aeronave .informacao-nome {
+    border: 1px solid rgb(90, 87, 87);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+main .aeronave .informacao-nome span {
+    font-weight: 700;
+}
+
+.caca {
+    padding: 5px;
+    background-color: rgb(209, 65, 65);
+    border-radius: 10px;
+}
+
+.helicoptero {
+    padding: 5px;
+    background-color: rgb(83, 212, 100);
+    border-radius: 10px;
+}
+
+.transporte {
+    padding: 5px;
+    background-color: rgb(83, 117, 212);
+    border-radius: 10px;
+}
+
+
+main .aeronave .descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 0.8em;
+    padding-right: 10px;
+}
+
+main .aeronave .descricao span {
+    font-weight: bold;
+}
