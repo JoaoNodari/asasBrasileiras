@@ -7,9 +7,9 @@ botaoAlterarTema.addEventListener ("click", () => {
     const modoClaroAtivo = body.classList.contains("modo-claro")
     if (modoClaroAtivo) {
         body.classList.remove("modo-claro")
-        imagemBotaoTrocaDeTema.setAttribute("src", "./src/img/moon.png")
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/img/sun.png")
     } else {
         body.classList.add("modo-claro")
-        imagemBotaoTrocaDeTema.setAttribute("src", "./src/img/sun.png")
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/img/moon.png")
     }
 })
