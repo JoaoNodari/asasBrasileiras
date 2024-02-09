@@ -3,7 +3,7 @@
 
 ### 🚨 Sobre o Projeto
 
-O projeto é uma página que exibe diversas aeronaves que sobrevoão os céus do Estado brasileiro.
+O projeto é uma página que exibe diversas aeronaves que sobrevoam os céus do Estado brasileiro.
 
 ### 🔨 Ferramentas Utilizadas
 
